@@ -1,0 +1,103 @@
+/* Google Font Integratio */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
+
+/*-------------------------
+ Common CSS 
+ --------------------------*/
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+ }
+ .container{
+    width: 1200px;
+ }
+
+ /*------------------------
+  Hero section start 
+  ------------------------*/
+ header{
+    display: flex;
+    justify-content: center;
+ }
+ .hero-section{
+    display: flex;
+    align-items: center;
+    column-gap: 56px;
+    background-color: #161616;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 35px 80px 0 100px;
+ }
+ .page-headline{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+ }
+ .section-info p{
+    padding: 22px 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+ }
+ .hero-button{
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 12px 30px;
+    border: 0;
+ }
+ .hero-button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+ }
+
+.player-img img{
+    height: 500px;
+    margin-bottom: -6px;
+}
+
+/* -----------------------------
+Footer section start here  
+------------------------------ */
+footer{
+    background-color: #161616;
+    height: 344px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-logo{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 50px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    padding-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #B9B9B9;
+}
+nav ul li a:hover{
+    color: #DD0000;
+}
