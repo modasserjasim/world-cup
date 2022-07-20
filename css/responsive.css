@@ -1,7 +1,5 @@
 /* Media Queries for the Mobile Devices */
-.football-blogs{
-    display: none;
- }
+
 @media  only screen and (max-width:767px) {
     .container{
         width: 90%;
@@ -11,7 +9,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
-        margin-bottom: 60px;
+        margin-bottom: 10px;
         padding: 30px 60px 20px 60px;
      }
      .section-info{
@@ -21,7 +19,8 @@
      }
      .player-img img{
         width: 100%;
-        margin-bottom: -6px;
+        margin-top: 20px;
+        margin-bottom: -26px;
     }
     .page-headline{
         font-size: 22px;
@@ -30,6 +29,10 @@
      }
      .section-info p{
         padding: 22px 0;
+        width: 300px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
         font-size: 14px;
         line-height: 24px;
         text-align: center;
@@ -38,10 +41,53 @@
         max-width: 170px;
         padding: 12px 12px;
      }
+     /*============================
+      Main section start  
+      ============================*/
+      .football-blogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .navigation{
+        background-color: #ffffff;
+        position: static;
+     }
+     .main-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+     }
+     .main-nav li {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+     .nav-button{
+        background-color: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 15px 15px;
+     }
+     .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 24px;
+     }
+     .blog-info h3{
+        font-weight: 600;
+        font-size: 18.7675px;
+        line-height: 28px;
+        color: #161616;
+        margin-bottom: 10px;
+     }
+
      
-     /* Footer section start  */
+     /*============================
+      Footer section start  
+      =============================*/
      footer{
-        height: 420px;
+        padding: 25px 0;
     }
     .footer-logo{
         font-weight: 600;
@@ -67,6 +113,10 @@
         font-size: 14px;
         line-height: 50px;
     }
+    .footer-icon{
+        color: #fff;
+        font-size: 20px;
+    }
 
 }
 
@@ -81,12 +131,14 @@
         background-color: #161616;
         border-radius: 20px;
         margin-top: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 40px;
         padding: 30px 30px 0 75px;
      }
+     .section-info{
+        padding-bottom: 40px;
+     }
     .player-img img{
-        width: 100%;
-        margin-bottom: -6px;
+        width: 120%;
     }
     .page-headline{
         font-size: 40px;
@@ -98,7 +150,66 @@
         line-height: 24px;
      }
      .hero-button{
-        max-width: 170px;
-        padding: 12px 12px;
+        max-width: 190px;
+        padding: 15px 30px;
      }
+
+     /*=========================== 
+     Main Section start here  
+     ===========================*/
+     /*============================
+      Main section start  
+      ============================*/
+      .football-blogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .navigation{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        position: static;
+     }
+     .main-nav{
+        display: flex;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: space-between;
+        column-gap: 22px;
+     }
+     .nav-button{
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 15px 15px;
+     }
+
+     .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+     }
+     .blog-info h3{
+        font-weight: 600;
+        font-size: 18.7675px;
+        line-height: 28px;
+        color: #161616;
+        margin-bottom: 10px;
+     }
+
+     /* Footer section start  */
+     footer nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .footer-icon{
+        color: #fff;
+        font-size: 24px;
+    }
 }

@@ -27,7 +27,6 @@
  .hero-section{
     display: flex;
     align-items: center;
-    /* column-gap: 56px; */
     background-color: #161616;
     border-radius: 20px;
     margin-top: 50px;
@@ -83,6 +82,8 @@
     height: 310px;
     padding: 30px;
     border-radius: 15px;
+    position: sticky;
+    top: 10px;
  }
  .blogs{
     flex: 2;
@@ -180,12 +181,12 @@ Footer section start here
 ------------------------------ */
 footer{
     background-color: #161616;
-    height: 344px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
+    padding: 50px 0;
 }
 .footer-logo{
     font-size: 40px;
@@ -217,7 +218,7 @@ footer nav ul li a:hover, .footer-icon:hover{
 .social-media{
     display: flex;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 30px;
     margin-top: 30px;
 }
 .footer-icon{
