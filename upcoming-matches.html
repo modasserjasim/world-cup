@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIFA World Cup 2022</title>
     <!-- Font Awesome integration -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/aeb3aefcbb.js" crossorigin="anonymous"></script>
     <!-- Stylesheet integration -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS integration -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <!-- ===========================
@@ -20,7 +22,7 @@
                 <h1 class="page-headline">The Greatest show on the earth</h1>
                 <p>Contrary to popular belief, Lorem Ipsum is not simply 
                     random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                <button class="hero-button"><a href="#">Watch Live</a></button>
+                <button class="hero-button"><a href="#">Watch Live <i class="fa fa-chevron-right"></i></a></button> 
             </div>
             <div class="player-img">
                 <img src="images/lionel-messi.png" alt="Lionel Messi">
@@ -31,118 +33,89 @@
          Main section start here 
     ==============================-->
     <main>
-        <section>
-            <div class="container football-blogs">
+        <section class="container">
+            <div class="football-blogs">
                 <div class="navigation">
                     <nav>
                         <ul class="main-nav">
-                            <li class="blogs-button"><a href="upcoming-matches.html">Upcoming Macthes</a></li>
+                            <li class="upcoming-button"><a href="upcoming-matches.html">Upcoming Macthes</a></li>
                             <li class="nav-button"><a href="#">All Group</a></li>
                             <li class="nav-button"><a href="index.html">Blogs</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="blogs">
-                    <div class="blog">
-                        <img src="images/blog-thumb.png" alt="Blog Thumnail">
-                        <div class="blog-info">
-                            <button class="blog-category">Transfer</button>
-                        <h3>Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
-                        <div class="blog-status">
-                            <p>icon <span>10 hr</span></p>
-                            <p>icon <span>23</span></p>
+                <div class="matches">
+                    <div class="match">
+                        <div class="flagvsflag">
+                            <img class="flag" src="images/flags/Flag-Argentina.webp" alt="Argentina Flag">
+                            <h3>VS</h3>
+                            <img class="flag" src="images/flags/Saudi-Arabia.webp" alt="Saudi Arabia">
                         </div>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="images/blog-thumb.png" alt="Blog Thumnail">
-                        <div class="blog-info">
-                            <button class="blog-category">Transfer</button>
-                        <h3>Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
-                        <div class="blog-status">
-                            <p>icon <span>10 hr</span></p>
-                            <p>icon <span>23</span></p>
-                        </div>
+                        <div class="match-info">
+                            <h3>Argentina VS Saudi Arabia</h3>
+                            <p>April 01, 2023, 1.00 AM</p>
                         </div>
                     </div>
-                    <div class="blog">
-                        <img src="images/blog-thumb.png" alt="Blog Thumnail">
-                        <div class="blog-info">
-                            <button class="blog-category">Transfer</button>
-                        <h3>Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
-                        <div class="blog-status">
-                            <p>icon <span>10 hr</span></p>
-                            <p>icon <span>23</span></p>
+                    <div class="match">
+                        <div class="flagvsflag">
+                            <img class="flag" src="images/flags/Flag-Argentina.webp" alt="Argentina Flag">
+                            <h3>VS</h3>
+                            <img class="flag" src="images/flags/Saudi-Arabia.webp" alt="Saudi Arabia">
                         </div>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="images/blog-thumb.png" alt="Blog Thumnail">
-                        <div class="blog-info">
-                            <button class="blog-category">Transfer</button>
-                        <h3>Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
-                        <div class="blog-status">
-                            <p>icon <span>10 hr</span></p>
-                            <p>icon <span>23</span></p>
-                        </div>
+                        <div class="match-info">
+                            <h3>Argentina VS Saudi Arabia</h3>
+                            <p>April 01, 2023, 1.00 AM</p>
                         </div>
                     </div>
-                    <div class="blog">
-                        <img src="images/blog-thumb.png" alt="Blog Thumnail">
-                        <div class="blog-info">
-                            <button class="blog-category">Transfer</button>
-                        <h3>Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
-                        <div class="blog-status">
-                            <p>icon <span>10 hr</span></p>
-                            <p>icon <span>23</span></p>
+                    <div class="match">
+                        <div class="flagvsflag">
+                            <img class="flag" src="images/flags/Flag-Argentina.webp" alt="Argentina Flag">
+                            <h3>VS</h3>
+                            <img class="flag" src="images/flags/Saudi-Arabia.webp" alt="Saudi Arabia">
                         </div>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="images/blog-thumb.png" alt="Blog Thumnail">
-                        <div class="blog-info">
-                            <button class="blog-category">Transfer</button>
-                        <h3>Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
-                        <div class="blog-status">
-                            <p>icon <span>10 hr</span></p>
-                            <p>icon <span>23</span></p>
-                        </div>
+                        <div class="match-info">
+                            <h3>Argentina VS Saudi Arabia</h3>
+                            <p>April 01, 2023, 1.00 AM</p>
                         </div>
                     </div>
-                    <div class="blog">
-                        <img src="images/blog-thumb.png" alt="Blog Thumnail">
-                        <div class="blog-info">
-                            <button class="blog-category">Transfer</button>
-                        <h3>Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
-                        <div class="blog-status">
-                            <p>icon <span>10 hr</span></p>
-                            <p>icon <span>23</span></p>
+                    <div class="match">
+                        <div class="flagvsflag">
+                            <img class="flag" src="images/flags/Flag-Argentina.webp" alt="Argentina Flag">
+                            <h3>VS</h3>
+                            <img class="flag" src="images/flags/Saudi-Arabia.webp" alt="Saudi Arabia">
                         </div>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="images/blog-thumb.png" alt="Blog Thumnail">
-                        <div class="blog-info">
-                            <button class="blog-category">Transfer</button>
-                        <h3>Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
-                        <div class="blog-status">
-                            <p>icon <span>10 hr</span></p>
-                            <p>icon <span>23</span></p>
-                        </div>
+                        <div class="match-info">
+                            <h3>Argentina VS Saudi Arabia</h3>
+                            <p>April 01, 2023, 1.00 AM</p>
                         </div>
                     </div>
-                    <div class="blog">
-                        <img src="images/blog-thumb.png" alt="Blog Thumnail">
-                        <div class="blog-info">
-                            <button class="blog-category">Transfer</button>
-                        <h3>Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
-                        <div class="blog-status">
-                            <p>icon <span>10 hr</span></p>
-                            <p>icon <span>23</span></p>
+                    <div class="match">
+                        <div class="flagvsflag">
+                            <img class="flag" src="images/flags/Flag-Argentina.webp" alt="Argentina Flag">
+                            <h3>VS</h3>
+                            <img class="flag" src="images/flags/Saudi-Arabia.webp" alt="Saudi Arabia">
                         </div>
+                        <div class="match-info">
+                            <h3>Argentina VS Saudi Arabia</h3>
+                            <p>April 01, 2023, 1.00 AM</p>
+                        </div>
+                    </div>
+                    <div class="match">
+                        <div class="flagvsflag">
+                            <img class="flag" src="images/flags/Flag-Argentina.webp" alt="Argentina Flag">
+                            <h3>VS</h3>
+                            <img class="flag" src="images/flags/Saudi-Arabia.webp" alt="Saudi Arabia">
+                        </div>
+                        <div class="match-info">
+                            <h3>Argentina VS Saudi Arabia</h3>
+                            <p>April 01, 2023, 1.00 AM</p>
                         </div>
                     </div>
                 </div>
+                
+            </div>
+            <div class="tab-view-all-btn">
+                <a class="view-all-posts" href="index.html">View All</a>
             </div>
         </section>
     </main>
@@ -165,7 +138,16 @@
                     </ul>
                 </nav>
             </div>
+            <hr>
+            <div class="social-media">
+                <a href="https://facebook.com"><i class="fa fa-facebook footer-icon"></i></a>
+                <a href="https://twitter.com"><i class="fa fa-twitter footer-icon"></i></a>
+                <a href="https://instagram.com"><i class="fa fa-instagram footer-icon"></i></a>
+                <a href="https://pinterest.com"><i class="fa fa-pinterest-p footer-icon"></i></a>
+            </div>
         </div>
     </footer>
+
+    
 </body>
 </html>
