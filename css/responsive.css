@@ -44,7 +44,7 @@
      /*============================
       Main section start  
       ============================*/
-      .football-blogs{
+      .football-blogs, .football-matches{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -69,7 +69,7 @@
         text-align: center;
         padding: 15px 15px;
      }
-     .blogs{
+     .blogs, .matches{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 24px;
@@ -160,7 +160,7 @@
      /*=========================== 
      Main Section start here  
      ===========================*/
-      .football-blogs{
+      .football-blogs, .football-matches{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -194,7 +194,7 @@
         padding: 15px 15px;
      }
 
-     .blogs{
+     .blogs, .matches{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
