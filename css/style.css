@@ -27,6 +27,7 @@
  .hero-section{
     display: flex;
     align-items: center;
+    column-gap: 100px;
     background-color: #161616;
     border-radius: 20px;
     margin-top: 50px;
@@ -51,6 +52,9 @@
     padding: 15px 30px;
     border: 0;
     transition: 1s;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
  }
  .hero-button:hover{
     transform: scale(1.2);
@@ -59,11 +63,6 @@
  .fa-chevron-right{
     margin-left: 5px;
     font-size: 16px;
- }
- .hero-button a{
-    text-decoration: none;
-    font-size: 20px;
-    color: #fff;
  }
 
 .player-img img{
@@ -137,7 +136,9 @@
     text-decoration: none;
  }
 
- /* Articles section start  */
+ /*============================
+  Blog section start  
+  ===========================*/
  .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -189,7 +190,7 @@
  }
 
  /*=====================================
-  Upcoming matches section start here  
+  Upcoming matches page start here  
   ======================================*/
  .matches, .groups{
     display: grid;
@@ -245,6 +246,7 @@
   table {
     width:100%;
     border-collapse: collapse;
+    border-radius: 5px;
     
   }
   
@@ -296,21 +298,21 @@ hr{
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin: 50px 0;
 }
-footer nav ul{
+footer .nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
 }
-footer nav ul li{
+footer .nav ul li{
     padding-right: 40px;
 }
 
-footer nav ul li a{
+footer .nav ul li a{
     text-decoration: none;
     font-size: 16px;
     color: #B9B9B9;
 }
-footer nav ul li a:hover, .footer-icon:hover{
+footer .nav ul li a:hover, .footer-icon:hover{
     color: #DD0000;
     transform:scale(1.5);
     transition: 1s;
