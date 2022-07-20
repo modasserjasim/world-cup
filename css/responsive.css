@@ -81,6 +81,9 @@
         color: #161616;
         margin-bottom: 10px;
      }
+     .view-all-posts{
+        display: none;
+     }
 
      
      /*============================
@@ -157,9 +160,6 @@
      /*=========================== 
      Main Section start here  
      ===========================*/
-     /*============================
-      Main section start  
-      ============================*/
       .football-blogs{
         display: flex;
         flex-direction: column;
@@ -168,8 +168,9 @@
      .navigation{
         width: 100%;
         height: auto;
-        background-color: #ffffff;
-        position: static;
+        background-color: #ffffff00;
+        position: sticky;
+        top: 0px;
      }
      .main-nav{
         display: flex;
@@ -178,6 +179,9 @@
         justify-content: space-between;
         column-gap: 22px;
      }
+     .main-nav li {
+        margin-bottom: 10px;
+    }
      .nav-button{
         width: 100%;
         background-color: #fff;
@@ -199,8 +203,28 @@
         color: #161616;
         margin-bottom: 10px;
      }
+     .tab-view-all-btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+     }
+     .view-all-posts{
+        background-color: #DD0000;
+        border-radius: 5px;
+        padding: 12px 29px;
+        font-size: 20px;
+        text-align: center;
+     }
+     a.view-all-posts{
+        text-decoration: none;
+        color: #fff;
+     }
 
      /* Footer section start  */
+     footer{
+        margin-top: 70px;
+        padding: 50px 0;
+    }
      footer nav ul{
         list-style: none;
         display: flex;
@@ -212,4 +236,9 @@
         color: #fff;
         font-size: 24px;
     }
+}
+@media screen and (min-width:970px) {
+    .view-all-posts{
+        display: none;
+     }
 }

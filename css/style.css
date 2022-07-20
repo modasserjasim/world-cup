@@ -175,6 +175,7 @@
  .time-comment{
     padding-left: 10px;
  }
+ 
 
 /* -----------------------------
 Footer section start here  
@@ -214,6 +215,8 @@ footer nav ul li a{
 }
 footer nav ul li a:hover, .footer-icon:hover{
     color: #DD0000;
+    transform:scale(1.5);
+    transition: 1s;
 }
 .social-media{
     display: flex;
@@ -224,4 +227,5 @@ footer nav ul li a:hover, .footer-icon:hover{
 .footer-icon{
     color: #fff;
     font-size: 30px;
+    transition: 1s;
 }
