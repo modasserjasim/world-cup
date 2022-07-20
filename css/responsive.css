@@ -1,0 +1,104 @@
+/* Media Queries for the Mobile Devices */
+.football-blogs{
+    display: none;
+ }
+@media  only screen and (max-width:767px) {
+    .container{
+        width: 90%;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        padding: 30px 60px 20px 60px;
+     }
+     .section-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .player-img img{
+        width: 100%;
+        margin-bottom: -6px;
+    }
+    .page-headline{
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+     }
+     .section-info p{
+        padding: 22px 0;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+     }
+     .hero-button{
+        max-width: 170px;
+        padding: 12px 12px;
+     }
+     
+     /* Footer section start  */
+     footer{
+        height: 420px;
+    }
+    .footer-logo{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;  
+    }
+    hr{
+        margin: 24px 0;
+    }
+     footer nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer nav ul li{
+        padding-right: 0px;
+    }
+    footer nav ul li a{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 50px;
+    }
+
+}
+
+/* Media Queries for the Tablet Devices */
+@media  only screen and (min-width:768px) and (max-width:969px){
+    .container{
+        width: 90%;
+    }
+    .hero-section{
+        display: flex;
+        align-items: center;
+        background-color: #161616;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        padding: 30px 30px 0 75px;
+     }
+    .player-img img{
+        width: 100%;
+        margin-bottom: -6px;
+    }
+    .page-headline{
+        font-size: 40px;
+        line-height: 50px;
+     }
+     .section-info p{
+        padding: 22px 0;
+        font-size: 14px;
+        line-height: 24px;
+     }
+     .hero-button{
+        max-width: 170px;
+        padding: 12px 12px;
+     }
+}
