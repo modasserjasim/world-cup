@@ -34,6 +34,10 @@
     margin-bottom: 100px;
     padding: 35px 20px 0 100px;
  }
+ .hero-section:hover .player-img img{
+    transform: translate(-100px);
+    transition: 3s;
+ }
  .page-headline{
     font-size: 70px;
     font-weight: 700;
@@ -68,6 +72,7 @@
 .player-img img{
     width: 550px;
     margin-bottom: -6px;
+    transition: 2s;
 }
 /*============================
  Main section start here  
@@ -99,25 +104,28 @@
     list-style: none;
     margin-bottom: 35px;
  }
- .nav-button{
+ .main-nav li a{
+    padding: 15px 20px;
+    display: block;
     background-color: #fff;
     border-radius: 10px;
-    text-align: center;
-    padding: 15px 15px;
- }
- .nav-button a{
-    font-size: 20px;
     color: #161616;
-    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    transition: 1s;
+    text-decoration: none;
  }
- /* .blogs, .matches{
-    flex: 2;
- } */
- .blogs-button, .upcoming-button, .group-button{
+ .main-nav li a:hover{
     background-color: #DD0000;
+    color: #ffffff;
+    transition: .5s;
+ }
+ 
+ .blogs-button, .upcoming-button, .group-button{
+    
     border-radius: 10px;
     text-align: center;
-    padding: 15px 15px;
  }
  .upcoming-button{
     background-color: #DD0000;
@@ -128,12 +136,10 @@
     color: #fff;
  }
  .blogs-button a, .upcoming-button a, .group-button a{
+    background-color: #DD0000 !important;
     font-size: 20px;
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: 600;
- }
- .main-nav li a{
-    text-decoration: none;
  }
 
  /*============================

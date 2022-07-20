@@ -64,12 +64,18 @@
         list-style: none;
         margin-bottom: 20px;
     }
-     .nav-button{
+    .main-nav li a{
+        padding: 15px 20px;
+        display: block;
         background-color: #fff;
         border-radius: 10px;
         border: 1px solid #ddd;
+        color: #161616;
+        font-size: 20px;
+        line-height: 30px;
         text-align: center;
-        padding: 15px 15px;
+        transition: 1s;
+        text-decoration: none;
      }
      .blogs, .matches, .groups{
         display: grid;
@@ -189,14 +195,27 @@
         margin-bottom: 10px;
         width: 100%;
     }
-     .nav-button{
+    .main-nav li a{
+        padding: 15px 20px;
+        display: block;
+        background-color: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        color: #161616;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        transition: 1s;
+        text-decoration: none;
+     }
+     /* .nav-button{
         width: 100%;
         background-color: #fff;
         border-radius: 10px;
         border: 1px solid #ddd;
         text-align: center;
         padding: 15px 15px;
-     }
+     } */
 
      .blogs, .matches, .groups{
         display: grid;
