@@ -48,6 +48,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-items: stretch;
+        column-gap: 0;
      }
      .navigation{
         background-color: #ffffff;
@@ -69,7 +71,7 @@
         text-align: center;
         padding: 15px 15px;
      }
-     .blogs, .matches{
+     .blogs, .matches, .groups{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 24px;
@@ -141,7 +143,7 @@
         padding-bottom: 40px;
      }
     .player-img img{
-        width: 120%;
+        width: 100%;
     }
     .page-headline{
         font-size: 40px;
@@ -164,6 +166,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-items: stretch
      }
      .navigation{
         width: 100%;
@@ -194,7 +197,7 @@
         padding: 15px 15px;
      }
 
-     .blogs, .matches{
+     .blogs, .matches, .groups{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;

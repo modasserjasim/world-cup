@@ -14,7 +14,7 @@
     margin: 0 auto;
  }
  .container{
-    width: 1200px;
+    width: 1270px;
  }
 
  /*------------------------
@@ -31,7 +31,7 @@
     border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 100px;
-    padding: 35px 80px 0 100px;
+    padding: 35px 20px 0 100px;
  }
  .page-headline{
     font-size: 70px;
@@ -111,10 +111,10 @@
     color: #161616;
     font-weight: 500;
  }
- .blogs, .matches{
+ /* .blogs, .matches{
     flex: 2;
- }
- .blogs-button, .upcoming-button{
+ } */
+ .blogs-button, .upcoming-button, .group-button{
     background-color: #DD0000;
     border-radius: 10px;
     text-align: center;
@@ -128,13 +128,10 @@
  .blogs-button a:hover{
     color: #fff;
  }
- .blogs-button a, .upcoming-button a{
+ .blogs-button a, .upcoming-button a, .group-button a{
     font-size: 20px;
     color: #ffffff;
     font-weight: 600;
- }
- .blogs-button a:hover{
-    color: #000000;
  }
  .main-nav li a{
     text-decoration: none;
@@ -194,14 +191,14 @@
  /*=====================================
   Upcoming matches section start here  
   ======================================*/
- .matches{
+ .matches, .groups{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px ;
     row-gap: 24px;
  }
   .flag{
-    width: 80px;
+    max-width: 80px;
  }
  .match{
     padding: 53px 30px;
@@ -229,6 +226,53 @@
     margin-top: 10px;
     text-align: center;
  }
+
+ /*=====================================
+  All Groups page css start here  
+  ======================================*/
+  .group{
+    padding: 30px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .group h2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -10px;
+ }
+  
+  table {
+    width:100%;
+    border-collapse: collapse;
+    
+  }
+  
+  tr:nth-of-type(odd)
+  {
+    background:#eee;
+    
+  }
+  
+  tr:nth-of-type(even)
+  {
+    background:lightgrey;
+    
+  }
+  
+  
+  th { 
+    background: #DD0000; 
+    color: white; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
+
 
 /* -----------------------------
 Footer section start here  
